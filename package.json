@@ -8,7 +8,6 @@
     "npm": ">=7"
   },
   "scripts": {
-    "postinstall": "electron-builder install-app-deps",
     "start": "electron src/main --serve & npm run watch",
     "watch": "webpack --config ./config/webpack/webpack.development --watch",
     "build": "webpack --config ./config/webpack/webpack.development",
