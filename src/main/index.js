@@ -43,18 +43,8 @@ function _createMainWindow() {
     }
   })
 
-  let indexPage = path.join(ROOT, 'build/index.html')
-
-  win.webContents.openDevTools()
-  win.loadURL(
-    url.format({
-      pathname: indexPage,
-      protocol: 'file:',
-      slashes: true
-    })
-  )
-
   if (SERVE) {
+    win.webContents.openDevTools()
     require('electron-reloader')(module, {
       ignore: [
         'config',
@@ -64,8 +54,16 @@ function _createMainWindow() {
     })
   }
 
+  win.loadURL(
+    url.format({
+      pathname: path.join(ROOT, 'build/index.html'),
+      protocol: 'file:',
+      slashes: true
+    })
+  )
+
   win.on('closed', () => {
-    win = null
+    _mainWindow = null
   })
 
   return win
