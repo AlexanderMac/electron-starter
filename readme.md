@@ -1,23 +1,20 @@
-# repo-template
+# electron-starter
 
-[![Build Status](https://github.com/AlexanderMac/repo-template/workflows/CI/badge.svg)](https://github.com/AlexanderMac/repo-template/actions?query=workflow%3ACI)
-[![Code Coverage](https://codecov.io/gh/AlexanderMac/repo-template/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexanderMac/repo-template)
-[![npm version](https://badge.fury.io/js/repo-template.svg)](https://badge.fury.io/js/repo-template)
+[![Build Status](https://github.com/AlexanderMac/electron-starter/workflows/CI/badge.svg)](https://github.com/AlexanderMac/electron-starter/actions?query=workflow%3ACI)
+[![Code Coverage](https://codecov.io/gh/AlexanderMac/electron-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexanderMac/electron-starter)
+[![npm version](https://badge.fury.io/js/electron-starter.svg)](https://badge.fury.io/js/electron-starter)
 
-## Features
+### Features
 TODO
 
-## Commands
+### Used packages
 TODO
 
-## Usage
+### How to use
 TODO
 
-## API
-TODO
-
-## Author
+### Author
 Alexander Mac
 
-## Licence
+### Licence
 Licensed under the MIT license.
