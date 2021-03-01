@@ -14,8 +14,8 @@ pids
 coverage
 
 # Compiled
-build/Release
-dist
+release
+build
 
 # Dependency directory
 node_modules

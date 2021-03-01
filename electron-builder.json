@@ -1,0 +1,47 @@
+{
+  "productName": "electron-starter",
+  "appId": "com.example.electron-starter", 
+  "files": [
+    "src/main/",
+    "build/",
+    "package.json"
+  ],
+  "directories": {
+    "app": "src",
+    "buildResources": "resources",
+    "output": "release"
+  },
+  "publish": null,
+  "mac": {
+    "target": [
+      "dmg"
+    ],
+    "type": "distribution",
+    "hardenedRuntime": true,
+    "gatekeeperAssess": false
+  },
+  "dmg": {
+    "contents": [{
+        "x": 130,
+        "y": 220
+      },
+      {
+        "x": 410,
+        "y": 220,
+        "type": "link",
+        "path": "/Applications"
+      }
+    ]
+  },
+  "win": {
+    "target": [
+      "nsis"
+    ]
+  },
+  "linux": {
+    "target": [
+      "AppImage"
+    ],
+    "category": "Development"
+  }
+}
