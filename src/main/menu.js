@@ -5,9 +5,7 @@ const menu = [{
   submenu: [{
     role: 'help',
     accelerator: process.platform === 'darwin' ? 'Alt+Cmd+I' : 'Alt+Shift+I',
-    click: () => {
-      console.log('Electron rocks!')
-    }
+    click: () => {}
   }]
 }]
 module.exports = Menu.buildFromTemplate(menu)
