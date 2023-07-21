@@ -1,4 +1,5 @@
 # electron-starter
+## WARNING :warning:: This repo is not maintained anymore.
 
 [![Build Status](https://github.com/AlexanderMac/electron-starter/workflows/CI/badge.svg)](https://github.com/AlexanderMac/electron-starter/actions?query=workflow%3ACI)
 [![npm version](https://badge.fury.io/js/electron-starter.svg)](https://badge.fury.io/js/electron-starter)
